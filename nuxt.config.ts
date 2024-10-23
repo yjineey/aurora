@@ -22,10 +22,25 @@ export default defineNuxtConfig({
     },
   },
   target: "static",
+  build: {
+    publicPath: '/gh-deploy/_nuxt/' // 빌드된 Nuxt 파일 경로
+  },
   router: {
     base: "/gh-deploy/",
   },
-
+  vite: {
+    build: {
+      rollupOptions: {
+        output: {
+          manualChunks(id) {
+            if (id.includes('node_modules')) {
+              return 'vendor';
+            }
+          }
+        }
+      }
+    }
+  },
   routeRules: {
     "/": { isr: true, prerender: true },
   },
