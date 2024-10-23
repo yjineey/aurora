@@ -22,7 +22,7 @@ export function getNavigation(where: Where): Record<string, Navigation> | [] {
         },
         writing: {
           name: 'Writing',
-          to: '/writing',
+          to: '/gh-deploy/writing',
           icon: 'lucide:library',
         },
         about: {

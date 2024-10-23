@@ -10,7 +10,41 @@
       "link": "https://vuejs.org/",
       "logo": "SvgoVueColor"
     },
- 
+    {
+      "name": "Nest",
+      "link": "https://nestjs.com/",
+      "logo": "SvgoNestColor"
+    },
+    {
+      "name": "TailwindCSS",
+      "link": "https://tailwindcss.com/",
+      "logo": "SvgoTailwindColor"
+    },
+    {
+      "name": "Prisma",
+      "link": "https://www.prisma.io/",
+      "logo": "SvgoPrismaColor"
+    },
+    {
+      "name": "Vercel",
+      "link": "https://vercel.com/",
+      "logo": "SvgoVercel"
+    },
+    {
+      "name": "Linear",
+      "link": "https://linear.app/",
+      "logo": "SvgoLinearColor"
+    },
+    {
+      "name": "Arc",
+      "link": "https://arc.net/",
+      "logo": "SvgoArcColor"
+    },
+    {
+      "name": "Raycast",
+      "link": "https://raycast.com/",
+      "logo": "SvgoRaycastColor"
+    },
     {
       "name": "Notion",
       "link": "https://www.notion.so/",

@@ -34,7 +34,7 @@ export default defineNuxtConfig({
     identity: {
       type: "Person",
     },
-    twitter: "@HugoRCD__",
+    twitter: "",
   },
 
   css: ["~/assets/style/main.css"],
