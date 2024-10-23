@@ -7,33 +7,32 @@ export type Navigation = {
 }
 
 export function getNavigation(where: Where): Record<string, Navigation> | [] {
-  const url = '/gh-deploy'
   switch (where) {
     case 'home':
       return {
         home: {
           name: 'Home',
-          to: `${url}/`,
+          to: '/',
           icon: 'lucide:home',
         },
         works: {
           name: 'Works',
-          to: `${url}/works`,
+          to: '/works',
           icon: 'lucide:briefcase',
         },
         writing: {
           name: 'Writing',
-          to: `${url}/writing`,
+          to: '/writing',
           icon: 'lucide:library',
         },
         about: {
           name: 'About',
-          to: `${url}/about`,
+          to: '/about',
           icon: 'lucide:user',
         },
         contact: {
           name: 'Contact',
-          to: `${url}/contact`,
+          to: '/contact',
           icon: 'lucide:mail',
         },
       }

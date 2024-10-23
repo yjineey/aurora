@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   },
 
   app: {
+    baseURL: '/gh-deploy/',
     head: {
       viewport: "width=device-width, initial-scale=1",
       charset: "utf-8",
@@ -106,7 +107,7 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       crawlLinks: true,
-      routes: ["/sitemap.xml", "/gh-deploy/", "/gh-deploy/writing", "/gh-deploy/works", "/gh-deploy/about", "/gh-deploy/contact"],
+      routes: ["/sitemap.xml", "/", "/writing", "/works", "/about", "/contact"],
     },
   },
 

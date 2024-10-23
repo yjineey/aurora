@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "private": true,
   "license": "Apache-2.0",
+  "homepage": "https://yjineey.github.io/gh-deploy/",
   "scripts": {
     "automd": "automd",
     "build": "nuxt build",
