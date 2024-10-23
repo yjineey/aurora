@@ -19,16 +19,21 @@ defineProps({
         v-for="experience in experiences"
         :key="experience.title"
       >
-        <h4 class="font-semibold text-main">
+      <h4 class="font-semibold  text-main">
           {{ experience.title }}
         </h4>
-        <div class="flex gap-1 text-muted">
+        <div class="flex gap-2 text-muted">
           <p>
-            {{ experience.date }}
+            {{ experience.company }}
           </p>
           <span class="mx-1"> / </span>
           <p>
-            {{ experience.company }}
+            {{ experience.part }}
+          </p>
+        </div>
+        <div class="flex gap-1 text-muted">
+          <p>
+            {{ experience.date }}
           </p>
         </div>
       </div>
