@@ -5,7 +5,7 @@ export default defineEventHandler(async (event) => {
   // Fetch all documents
   const docs = await serverQueryContent(event).find()
   const sitemap = new SitemapStream({
-    hostname: 'https://canvas.hrcd.fr',
+    hostname: 'https://yjineey.github.io/gh-deploy',
   })
 
   for (const doc of docs) {
@@ -28,7 +28,7 @@ export default defineEventHandler(async (event) => {
     changefreq: 'daily',
   })
   sitemap.write({
-    url: '/works',
+    url: '/gh-deploy/works',
     changefreq: 'daily',
   })
   sitemap.write({
