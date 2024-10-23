@@ -22,7 +22,7 @@ export default defineNuxtConfig({
   },
   target: "static",
   router: {
-    base: "/gh-actions/",
+    base: "/gh-deploy/",
   },
 
   routeRules: {
