@@ -28,19 +28,6 @@ export default defineNuxtConfig({
   router: {
     base: "/gh-deploy/",
   },
-  vite: {
-    build: {
-      rollupOptions: {
-        output: {
-          manualChunks(id) {
-            if (id.includes('node_modules')) {
-              return 'vendor';
-            }
-          }
-        }
-      }
-    }
-  },
   routeRules: {
     "/": { isr: true, prerender: true },
   },
@@ -121,7 +108,7 @@ export default defineNuxtConfig({
 
   nitro: {
     prerender: {
-      crawlLinks: true,
+      crawlLinks: false,
       routes: ["/sitemap.xml", "/", "/writing", "/works", "/about", "/contact"],
     },
   },
