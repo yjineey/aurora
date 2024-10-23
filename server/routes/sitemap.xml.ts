@@ -28,7 +28,7 @@ export default defineEventHandler(async (event) => {
     changefreq: 'daily',
   })
   sitemap.write({
-    url: '/gh-deploy/works',
+    url: '/works',
     changefreq: 'daily',
   })
   sitemap.write({
