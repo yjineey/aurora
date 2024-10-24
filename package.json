@@ -1,10 +1,10 @@
 {
-  "name": "yjineey-gh-deploy",
+  "name": "Aurora",
   "author": "yjineey",
   "version": "1.0.0",
   "private": true,
   "license": "Apache-2.0",
-  "homepage": "https://yjineey.github.io/gh-deploy/",
+  "homepage": "https://yjineey.github.io/aurora/",
   "scripts": {
     "automd": "automd",
     "build": "nuxt build",

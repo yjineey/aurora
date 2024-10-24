@@ -1,7 +1,7 @@
 export default defineAppConfig({
-  appName: "Canvas a Nuxt portfolio template",
+  appName: "Aurora a Nuxt portfolio",
   appDescription:
-    "Canvas is a simple but beautiful portfolio template for designers and developers built with Nuxt and Tailwind CSS. Made with ❤️ by yjineey",
+    "Aurora is a simple but beautiful portfolio template for designers and developers built with Nuxt and Tailwind CSS. Made with ❤️ by yjineey",
   profilePicture: "/assets/hugo-richard-light.webp",
   footerName: "yjineey",
   email: "did3706@naver.com",
@@ -13,7 +13,6 @@ export default defineAppConfig({
     twitter: "https://twitter.com",
     linkedin: "https://www.linkedin.com",
     instagram: "https://www.instagram.com",
-    // spotify: "https://www.notion.so/yjineey",
   },
   ui: {
     primary: "emerald",

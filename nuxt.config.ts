@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   },
 
   app: {
-    baseURL: '/gh-deploy/',
+    baseURL: '/aurora/',
     head: {
       viewport: "width=device-width, initial-scale=1",
       charset: "utf-8",
@@ -23,10 +23,10 @@ export default defineNuxtConfig({
   },
   target: "static",
   build: {
-    publicPath: '/gh-deploy/_nuxt/' // 빌드된 Nuxt 파일 경로
+    publicPath: '/aurora/_nuxt/' // 빌드된 Nuxt 파일 경로
   },
   router: {
-    base: "/gh-deploy/",
+    base: "/aurora/",
   },
   routeRules: {
     "/": { isr: true, prerender: true },
