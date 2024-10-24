@@ -27,9 +27,9 @@
       "logo": "SvgoHtml5Color"
     },
     {
-      "name": "SCSS",
+      "name": "CSS",
       "link": "https://sass-lang.com/",
-      "logo": "SvgoScssColor"
+      "logo": "SvgoCssColor"
     },
     {
       "name": "Vite",
@@ -52,24 +52,24 @@
       "logo": "SvgoSpringColor"
     },
     {
+      "name": "Mysql",
+      "link": "https://www.postgresql.org/",
+      "logo": "SvgoMysqlColor"
+    }, 
+    {
       "name": "PostgreSql",
       "link": "https://www.postgresql.org/",
       "logo": "SvgoPostgresqlColor"
     },
     {
-      "name": "Mysql",
-      "link": "https://www.postgresql.org/",
-      "logo": "SvgoMysqlColor"
+      "name": "Eclipse",
+      "link": "https://about.gitlab.com/",
+      "logo": "SvgoEclipseColor"
     },
     {
-      "name": "Npm",
-      "link": "https://www.postgresql.org/",
-      "logo": "SvgoNpmColor"
-    },
-    {
-      "name": "Nginx",
-      "link": "https://www.postgresql.org/",
-      "logo": "SvgoNginxColor"
+      "name": "VSCode",
+      "link": "https://tortoisesvn.net//",
+      "logo": "SvgoVscodeColor"
     },
     {
       "name": "Git",
@@ -86,6 +86,7 @@
       "link": "https://tortoisesvn.net//",
       "logo": "SvgoSvnColor"
     },
+ 
     {
       "name": "Slack",
       "link": "https://slack.com/intl/ko-kr/help/",
@@ -105,11 +106,6 @@
       "name": "Notion",
       "link": "https://www.notion.so/",
       "logo": "SvgoNotionColor"
-    },
-    {
-      "name": "Chat-GPT",
-      "link": "https://chatgpt.com/?ref=dotcom/",
-      "logo": "SvgoChatGptColor"
     }
 
   ]
