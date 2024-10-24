@@ -1,0 +1,1 @@
+import{N as r}from"./BsYU0UUm.js";import{G as o}from"./CyJSps9W.js";import"./DlAUqK2U.js";function n(t,e){return null}const m={render(){return o(r,{icon:{render:n},name:"jir-color"})}};export{m as default,n as render};
