@@ -1,6 +1,5 @@
 {
   "items": [
-
     {
       "name": "Nuxt",
       "link": "https://nuxt.com/",
@@ -8,7 +7,7 @@
     },
     {
       "name": "Vue.js",
-      "link": "https://vuejs.org/guide/introduction.html/",
+      "link": "https://vuejs.org/",
       "logo": "SvgoVueColor"
     },
     {
@@ -18,17 +17,17 @@
     },
     {
       "name": "TypeScript",
-      "link": "https://www.typescriptlang.org/",
+      "link": "https://www.typescriptlang.org/ko/",
       "logo": "SvgoTypeScriptColor"
     },
     {
       "name": "HTML5",
-      "link": "https://sass-lang.com/",
+      "link": "https://developer.mozilla.org/ko/docs/Glossary/HTML5",
       "logo": "SvgoHtml5Color"
     },
     {
       "name": "CSS",
-      "link": "https://sass-lang.com/",
+      "link": "https://developer.mozilla.org/ko/docs/Learn/Getting_started_with_the_web/CSS_basics/",
       "logo": "SvgoCssColor"
     },
     {
@@ -53,7 +52,7 @@
     },
     {
       "name": "Mysql",
-      "link": "https://www.postgresql.org/",
+      "link": "https://www.mysql.com/",
       "logo": "SvgoMysqlColor"
     }, 
     {
@@ -63,12 +62,12 @@
     },
     {
       "name": "Eclipse",
-      "link": "https://about.gitlab.com/",
+      "link": "https://eclipseide.org/",
       "logo": "SvgoEclipseColor"
     },
     {
       "name": "VSCode",
-      "link": "https://tortoisesvn.net//",
+      "link": "https://code.visualstudio.com/",
       "logo": "SvgoVscodeColor"
     },
     {
@@ -86,11 +85,15 @@
       "link": "https://tortoisesvn.net//",
       "logo": "SvgoSvnColor"
     },
- 
     {
       "name": "Slack",
-      "link": "https://slack.com/intl/ko-kr/help/",
+      "link": "https://slack.com/intl/ko-kr/",
       "logo": "SvgoSlackColor"
+    },
+    {
+      "name": "Notion",
+      "link": "https://www.notion.so/",
+      "logo": "SvgoNotionColor"
     },
     {
       "name": "Jira",
@@ -101,12 +104,6 @@
       "name": "Confluence",
       "link": "https://www.atlassian.com/ko/software/confluence/",
       "logo": "SvgoConfluenceColor"
-    },
-    {
-      "name": "Notion",
-      "link": "https://www.notion.so/",
-      "logo": "SvgoNotionColor"
     }
-
   ]
 }
