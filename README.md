@@ -6,7 +6,7 @@ This is a fully customizable portfolio template built with [Nuxt.js](https://nux
 
 ## Demo
 
-You can see a live demo at [aurora](https://yjineey.github.io/aurora/).
+You can see a live demo at [aurora](https://yjineey.github.io/aurora/)
 
 ## Deploy with Vercel
 

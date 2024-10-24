@@ -49,17 +49,17 @@
     {
       "name": "Git",
       "link": "https://github.com/",
-      "logo": "SvgoCronColor"
+      "logo": "SvgoGithub"
     },
     {
       "name": "Gitlab",
       "link": "https://about.gitlab.com/",
-      "logo": "SvgoCronColor"
+      "logo": "SvgoGithub"
     },
     {
       "name": "TortoiseSVN",
       "link": "https://tortoisesvn.net//",
-      "logo": "SvgoCronColor"
+      "logo": "SvgoGithub"
     },
     {
       "name": "Notion",
