@@ -9,10 +9,13 @@
       <ContentSlot :use="$slots.subtitle" />
     </h2>
     <Divider class="mb-8 mt-2" />
-    <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-      <HobbyProfilePicture />
-      <HobbyProfilePicture />
-      <HobbyProfilePicture />
+    <div class="flex flex-col gap-3 grid grid-cols-1 sm:grid-cols-3 sm:items-center sm:justify-between">
+      <AboutProfilePicture />
+      <AboutProfilePicture />
+      <AboutProfilePicture />
+      <AboutProfilePicture />
+      <AboutProfilePicture />
+      <AboutProfilePicture />
     </div>
   </section>
 </template>

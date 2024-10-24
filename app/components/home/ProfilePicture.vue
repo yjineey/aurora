@@ -12,8 +12,8 @@ const { profilePicture } = useAppConfig()
           width="96"
           :src="profilePicture"
           class="size-24 rounded-full border-2 border-gray-800/30 object-cover"
-          alt="aurora Profile Picture"
-          aria-label="aurora Profile Picture"
+          alt="Aurora Profile Picture"
+          aria-label="Aurora Profile Picture"
         />
       </div>
     </SpotlightButton>
