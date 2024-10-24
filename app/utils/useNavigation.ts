@@ -6,7 +6,7 @@ export type Navigation = {
   icon: string
 }
 
-export function getNavigation(where: Where): Record<string, Navigation> | [] {
+export function getNavigation(where: Where): Record<string, Navigation> {
   switch (where) {
     case 'home':
       return {
@@ -23,20 +23,30 @@ export function getNavigation(where: Where): Record<string, Navigation> | [] {
         writing: {
           name: 'Writing',
           to: '/writing',
-          icon: 'lucide:library',
+          icon: 'lucide:notepad-text',
+        },
+        hobby: {
+          name: 'Hobby',
+          to: '/hobby',
+          icon: 'lucide:ferris-wheel',
+        }, 
+        contact: {
+          name: 'Contact',
+          to: '/contact',
+          icon: 'lucide:mail',
+        },     
+        github: {
+          name: 'Github',
+          to: 'https://github.com/yjineey/aurora',
+          icon: 'lucide:github',
         },
         about: {
           name: 'About',
           to: '/about',
           icon: 'lucide:user',
         },
-        contact: {
-          name: 'Contact',
-          to: '/contact',
-          icon: 'lucide:mail',
-        },
       }
     default:
-      return []
+      return [] // 빈 객체 반환
   }
 }

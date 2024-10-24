@@ -7,7 +7,7 @@ const { data: projects } = await useAsyncData('projects', () => queryContent('/p
 </script>
 
 <template>
-  <div class="flex w-full flex-col gap-6">
+  <div class="flex w-full flex-col gap-6 cursor-pointer" @click="useRouter().push('/works')">
     <h3 class="font-newsreader italic text-white-shadow text-xl">
       {{ $t("navigation.works") }}
     </h3>
@@ -29,11 +29,6 @@ const { data: projects } = await useAsyncData('projects', () => queryContent('/p
           {{ project.release === "soon" ? $t("global.soon") + "..." : project.release }}
         </span>
       </NuxtLink>
-    </div>
-    <div @click="useRouter().push('/works')">
-      <span class="font-newsreader italic text-white-shadow cursor-pointer text-sm">
-        {{ $t("global.see_more") }}
-      </span>
     </div>
   </div>
 </template>
