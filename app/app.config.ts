@@ -10,8 +10,7 @@ export default defineAppConfig({
   openGraphImage: "https://canvas.hrcd.fr/social-preview.jpg",
   socials: {
     github: "https://github.com/yjineey",
-    twitter: "https://twitter.com",
-    linkedin: "https://www.linkedin.com",
+    notion: "https://www.notion.so",
     instagram: "https://www.instagram.com",
   },
   ui: {
