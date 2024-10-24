@@ -5,11 +5,10 @@ export default defineAppConfig({
   profilePicture: "/assets/hugo-richard-light.webp",
   footerName: "yjineey",
   email: "did3706@naver.com",
-  twitterUsername: "",
   phone: "(+82) 10 2567 3706",
   openGraphImage: "https://canvas.hrcd.fr/social-preview.jpg",
   socials: {
-    github: "https://github.com/yjineey",
+    github: "https://github.com/yjineey/aurora",
     notion: "https://www.notion.so",
     instagram: "https://www.instagram.com",
   },

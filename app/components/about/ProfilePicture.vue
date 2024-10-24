@@ -15,15 +15,15 @@ const { profilePicture } = useAppConfig()
           width="256"
           :src="profilePicture"
           class="absolute inset-0 size-64 scale-110 rounded-xl object-cover blur-xl grayscale saturate-200 transition-all duration-300 group-hover:blur-[32px] group-hover:grayscale-0"
-          alt="yjineey Profile Picture"
-          aria-label="yjineey Profile Picture"
+          alt="Aurora Profile Picture"
+          aria-label="Aurora Profile Picture"
         />
         <NuxtImg
           width="256"
           src="/assets/hugo-richard-light.webp"
           class="relative size-64 rounded-xl object-cover grayscale transition-all duration-300 group-hover:grayscale-0"
-          alt="yjineey Profile Picture"
-          aria-label="yjineey Profile Picture"
+          alt="Aurora Profile Picture"
+          aria-label="Aurora Profile Picture"
         />
       </div>
     </SpotlightCard>
@@ -37,8 +37,8 @@ const { profilePicture } = useAppConfig()
         width="256"
         :src="profilePicture"
         class="size-64 rounded-xl object-cover transition-all duration-300"
-        alt="yjineey Profile Picture"
-        aria-label="yjineey Profile Picture"
+        alt="Aurora Profile Picture"
+        aria-label="Aurora Profile Picture"
       />
     </SpotlightCard>
   </div>
