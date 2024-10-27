@@ -1,7 +1,7 @@
 export default defineAppConfig({
   appName: "Aurora a Nuxt portfolio",
   appDescription:
-    "Aurora is a simple but beautiful portfolio template for designers and developers built with Nuxt and Tailwind CSS. Made with ❤️ by yjineey",
+    "Aurora is a simple but beautiful portfolio for developers built with Nuxt. Made with ❤️ by yjineey",
   profilePicture: "/assets/hugo-richard-light.webp",
   footerName: "yjineey",
   email: "did3706@naver.com",

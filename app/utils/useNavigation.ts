@@ -30,11 +30,11 @@ export function getNavigation(where: Where): Record<string, Navigation> {
           to: '/hobby',
           icon: 'lucide:ferris-wheel',
         }, 
-        contact: {
-          name: 'Contact',
-          to: '/contact',
-          icon: 'lucide:mail',
-        },     
+        // contact: {
+        //   name: 'Contact',
+        //   to: '/contact',
+        //   icon: 'lucide:mail',
+        // },     
         github: {
           name: 'Github',
           to: 'https://github.com/yjineey/aurora',

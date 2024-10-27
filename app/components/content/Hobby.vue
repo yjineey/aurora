@@ -10,12 +10,20 @@
     </h2>
     <Divider class="mb-8 mt-2" />
     <div class="flex flex-col gap-3 grid grid-cols-1 sm:grid-cols-3 sm:items-center sm:justify-between">
-      <AboutProfilePicture />
-      <AboutProfilePicture />
-      <AboutProfilePicture />
-      <AboutProfilePicture />
-      <AboutProfilePicture />
-      <AboutProfilePicture />
+      <HobbyRiding1 />
+      <HobbyRiding2 />
+      <HobbyRiding3 />
+      <HobbyClimbing1 />
+      <HobbyClimbing2 />
+      <HobbyClimbing3 />
+      <HobbyClimbing4 />
+      <HobbyClimbing5 />
+      <HobbyClimbing6 />
+      <HobbyMtClimbing1 />
+      <HobbyMtClimbing2 />
+      <HobbyMtClimbing3 />
+      <!-- <HobbyCooking1 /> -->
+      <!-- <HobbyCooking2 /> -->
     </div>
   </section>
 </template>
