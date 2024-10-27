@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.hrcd.fr/sitemap.xml
