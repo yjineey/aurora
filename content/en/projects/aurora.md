@@ -6,5 +6,3 @@ link: https://yjineey.github.io/aurora/
 featured: true
 layout: project
 ---
-
-<!-- 포트폴리오 -->

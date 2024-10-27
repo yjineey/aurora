@@ -27,12 +27,13 @@ defineProps({
             H.P  : {{ intro.phone }}
           </p>
         </div>
-          <div class="flex gap-1 text-muted">
+        <div class="flex gap-1 text-muted">
           <p>
             E-mail : {{ intro.email }}
           </p>
         </div>
       </div>
+      <Divider class="my-8" />
     </div>
   </div>
 </template>

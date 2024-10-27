@@ -1,3 +1,4 @@
+
 <script setup lang="ts">
 const appConfig = useAppConfig()
 
@@ -38,27 +39,12 @@ defineOgImage({ url: appConfig.openGraphImage, width: 1200, height: 630, alt: 'H
           <h2 class="mx-auto mt-4 max-w-xl text-center text-lg antialiased text-white/60">
             <ContentSlot :use="$slots.hero_subtitle" />
           </h2>
+          <!-- social -->
+          <HomeSocial
+            style="--stagger: 3"
+            data-animate
+          />
         </div>
-
-        <SettingsAvailability
-          background
-          class="mt-2"
-          style="--stagger: 2"
-          data-animate
-        />
-
-        <!-- social -->
-        <HomeSocial
-          style="--stagger: 3"
-          data-animate
-        />
-
-        <!-- cta -->
-        <HomeCTA
-          style="--stagger: 4"
-          data-animate
-        />
-
         <div
           style="--stagger: 5"
           data-animate
@@ -67,9 +53,7 @@ defineOgImage({ url: appConfig.openGraphImage, width: 1200, height: 630, alt: 'H
           <!-- projects -->
           <HomeProjects />
         </div>
-
         <Divider class="my-9" />
-
         <HomeFaq
           style="--stagger: 6"
           data-animate

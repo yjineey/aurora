@@ -24,10 +24,11 @@ const { data: stack } = await useAsyncData('stack', () => queryContent('/stack')
       </div>
     </div>
     <Divider class="my-8" />
-    <ContentSlot :use="$slots.introduce" />
-    <Divider class="my-8" />
     <div class="flex flex-col gap-3">
-    <ContentSlot :use="$slots.experiences" />
+      <ContentSlot :use="$slots.introduce" />
+    </div>
+    <div class="flex flex-col gap-3">
+      <ContentSlot :use="$slots.experiences" />
     </div>
     <Divider class="my-8" />
     <div class="flex flex-col gap-3">

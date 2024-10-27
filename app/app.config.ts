@@ -2,15 +2,17 @@ export default defineAppConfig({
   appName: "Aurora a Nuxt portfolio",
   appDescription:
     "Aurora is a simple but beautiful portfolio for developers built with Nuxt. Made with ❤️ by yjineey",
-  profilePicture: "/assets/hugo-richard-light.webp",
+  profilePicture: "/assets/profilePicture2.PNG",
   footerName: "yjineey",
   email: "did3706@naver.com",
   phone: "(+82) 10 2567 3706",
   openGraphImage: "https://canvas.hrcd.fr/social-preview.jpg",
   socials: {
-    github: "https://github.com/yjineey/aurora",
-    notion: "https://www.notion.so",
-    instagram: "https://www.instagram.com",
+    github: 'https://github.com/',
+    twitter: 'https://twitter.com/',
+    linkedin: 'https://www.linkedin.com/',
+    instagram: "https://www.instagram.com/",
+    spotify: 'https://open.spotify.com/',
   },
   ui: {
     primary: "emerald",

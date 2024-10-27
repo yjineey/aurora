@@ -11,11 +11,11 @@
       <div class="relative">
         <NuxtImg
           width="256"
-          src="/assets/hobby/mtClimbing1.PNG"
+          src="/assets/hobby/mtClimbing5.PNG"
           class="size-64 rounded-xl object-cover transition-all duration-300"
           alt="aurora Profile Picture"
           aria-label="aurora Profile Picture"
-          />
+        />
       </div>
     </SpotlightCard>
   </div>

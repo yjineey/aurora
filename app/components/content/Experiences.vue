@@ -19,8 +19,8 @@ defineProps({
         v-for="experience in experiences"
         :key="experience.title"
       >
-      <h4 class="font-semibold  text-main">
-          {{ experience.title }}
+        <h4 class="font-semibold  text-main">
+            {{ experience.title }}
         </h4>
         <div class="flex gap-2 text-muted">
           <p>

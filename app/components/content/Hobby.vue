@@ -22,6 +22,9 @@
       <HobbyMtClimbing1 />
       <HobbyMtClimbing2 />
       <HobbyMtClimbing3 />
+      <HobbyMtClimbing4 />
+      <HobbyMtClimbing5 />
+      <HobbyMtClimbing6 />
       <!-- <HobbyCooking1 /> -->
       <!-- <HobbyCooking2 /> -->
     </div>

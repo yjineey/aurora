@@ -20,18 +20,6 @@ export default defineEventHandler(async (event) => {
     changefreq: 'daily',
   })
   sitemap.write({
-    url: '/about',
-    changefreq: 'daily',
-  })
-  sitemap.write({
-    url: '/hobby',
-    changefreq: 'daily',
-  })
-  sitemap.write({
-    url: '/contact',
-    changefreq: 'daily',
-  })
-  sitemap.write({
     url: '/works',
     changefreq: 'daily',
   })
@@ -39,6 +27,19 @@ export default defineEventHandler(async (event) => {
     url: '/writing',
     changefreq: 'daily',
   })
+  // sitemap.write({
+  //   url: '/contact',
+  //   changefreq: 'daily',
+  // })
+  sitemap.write({
+    url: '/hobby',
+    changefreq: 'daily',
+  })
+  sitemap.write({
+    url: '/about',
+    changefreq: 'daily',
+  })
+
   sitemap.end()
 
   return streamToPromise(sitemap)
