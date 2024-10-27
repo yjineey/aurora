@@ -102,14 +102,14 @@ export default defineNuxtConfig({
     },
     baseUrl: "/",
     locales: ["kr", "en"],
-    defaultLocale: "kr",
+    defaultLocale: "en",
     vueI18n: "~/i18n.config.ts",
   },
 
   nitro: {
     prerender: {
       crawlLinks: false,
-      routes: ["/sitemap.xml", "/", "/writing", "/works", "/hobby", "/contact", "/about"],
+      routes: ["/sitemap.xml", "/", "/writing", "/works", "/hobby", "/about"],
     },
   },
 
@@ -129,7 +129,7 @@ export default defineNuxtConfig({
       anchorLinks: false,
     },
     locales: ["kr", "en"],
-    defaultLocale: "kr",
+    defaultLocale: "en",
   },
 
   svgo: {
