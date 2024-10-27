@@ -101,8 +101,8 @@ export default defineNuxtConfig({
       redirectOn: "root",
     },
     baseUrl: "/",
-    locales: ["en", "fr"],
-    defaultLocale: "en",
+    locales: ["kr", "en"],
+    defaultLocale: "kr",
     vueI18n: "~/i18n.config.ts",
   },
 
@@ -128,8 +128,8 @@ export default defineNuxtConfig({
     markdown: {
       anchorLinks: false,
     },
-    locales: ["en", "fr"],
-    defaultLocale: "en",
+    locales: ["kr", "en"],
+    defaultLocale: "kr",
   },
 
   svgo: {

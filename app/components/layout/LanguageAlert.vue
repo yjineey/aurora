@@ -3,7 +3,7 @@ import { usePreferredLanguages } from '@vueuse/core'
 
 const { locale } = useI18n()
 
-// languages is a ref of an array of strings like ['en-US', 'en', 'fr']
+// languages is a ref of an array of strings like ['en-US', 'kr', 'en']
 const languages = usePreferredLanguages()
 
 const isLanguageDifferent = computed(() => {

@@ -26,7 +26,8 @@ defineProps({
           <p>
             {{ experience.company }}
           </p>
-          <span class="mx-1"> / </span>
+        </div>
+        <div class="flex gap-2 text-muted">
           <p>
             {{ experience.part }}
           </p>
