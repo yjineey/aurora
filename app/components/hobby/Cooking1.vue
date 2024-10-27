@@ -21,7 +21,7 @@ const { profilePicture } = useAppConfig()
         <NuxtImg
           width="256"
           src="/assets/hobby/cooking1.jpg"
-          class="relative size-64 rounded-xl object-cover grayscale transition-all duration-300 group-hover:grayscale-0"
+          class="size-64 rounded-xl object-cover transition-all duration-300"
           alt="aurora Profile Picture"
           aria-label="aurora Profile Picture"
         />
