@@ -25,6 +25,20 @@
         />
       </div>
     </SpotlightCard>
+    <SpotlightCard
+      mode="after"
+      from="rgba(255,255,255,0.1)"
+      :size="400"
+      class="group w-64 rounded-2xl border border-white/10 bg-white/5 p-2 pb-4 sm:hidden"
+    >
+      <NuxtImg
+        width="256"
+        src="/assets/hobby/climbing5.PNG"
+        class="size-64 rounded-xl object-cover transition-all duration-300"
+        alt="Aurora Profile Picture"
+        aria-label="Aurora Profile Picture"
+      />
+    </SpotlightCard>
   </div>
 </template>
 
