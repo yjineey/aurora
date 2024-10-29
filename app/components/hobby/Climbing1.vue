@@ -12,13 +12,6 @@
         <NuxtImg
           width="256"
           src="/assets/hobby/climbing1.PNG"
-          class="absolute inset-0 size-64 scale-110 rounded-xl object-cover blur-xl grayscale saturate-200 transition-all duration-300 group-hover:blur-[32px] group-hover:grayscale-0"
-          alt="aurora Profile Picture"
-          aria-label="aurora Profile Picture"
-        />
-        <NuxtImg
-          width="256"
-          src="/assets/hobby/climbing1.PNG"
           class="relative size-64 rounded-xl object-cover grayscale transition-all duration-300 group-hover:grayscale-0"
           alt="aurora Profile Picture"
           aria-label="aurora Profile Picture"
