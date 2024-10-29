@@ -11,11 +11,7 @@ defineProps({
 })
 
 const locales = [
-  {
-    name: 'Korean',
-    iso: 'kr',
-    flag: 'kr',
-  },
+
   {
     name: 'English',
     iso: 'en',
@@ -62,7 +58,7 @@ watch(locale, (newLocale) => {
           :key="item"
           as="button"
           class="flex w-full justify-between px-4 py-2 text-sm"
-          @click="() => ($i18n.locale = $i18n.locale === 'en' ? 'en' : 'kr')"
+          @click="() => ($i18n.locale = $i18n.locale === 'en' )"
         >
           <div class="flex items-center gap-2 text-inverted">
             <span class="text-xs font-semibold">{{ locales.find((l) => l.iso === locale).flag }}</span>

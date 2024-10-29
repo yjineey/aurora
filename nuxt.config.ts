@@ -101,7 +101,7 @@ export default defineNuxtConfig({
       redirectOn: "root",
     },
     baseUrl: "/",
-    locales: ["kr", "en"],
+    locales: [ "en"],
     defaultLocale: "en",
     vueI18n: "~/i18n.config.ts",
   },
@@ -128,7 +128,7 @@ export default defineNuxtConfig({
     markdown: {
       anchorLinks: false,
     },
-    locales: ["kr", "en"],
+    locales: ["en"],
     defaultLocale: "en",
   },
 
@@ -136,5 +136,5 @@ export default defineNuxtConfig({
     autoImportPath: "./assets/logo/",
   },
 
-  compatibilityDate: "2024-07-31",
+  compatibilityDate: "2024-10-28",
 });

@@ -1,5 +1,5 @@
 export default defineAppConfig({
-  appName: "Aurora a Nuxt portfolio",
+  appName: "Aurora Portfolio",
   appDescription:
     "Aurora is a simple but beautiful portfolio for developers built with Nuxt. Made with ❤️ by yjineey",
   profilePicture: "/assets/profilePicture2.PNG",
