@@ -5,7 +5,7 @@
 
 ## Demo
 
-[aurora](https://yjineey.github.io/aurora/) 에서 실시간 데모를 볼 수 있습니다.
+[Aurora](https://yjineey.github.io/aurora/) 에서 실시간 데모를 볼 수 있습니다.
 
 ## Features
 
