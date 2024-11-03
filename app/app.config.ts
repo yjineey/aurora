@@ -6,7 +6,7 @@ export default defineAppConfig({
   footerName: "yjineey",
   email: "did3706@naver.com",
   phone: "(+82) 10 2567 3706",
-  openGraphImage: "/aurora-main.png",
+  openGraphImage: "https://yjineey.github.io/aurora/aurora-main.jpg",
   socials: {
     github: 'https://github.com/',
     twitter: 'https://twitter.com/',
