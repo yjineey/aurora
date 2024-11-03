@@ -23,10 +23,10 @@ export default defineEventHandler(async (event) => {
     url: '/works',
     changefreq: 'daily',
   })
-  sitemap.write({
-    url: '/writing',
-    changefreq: 'daily',
-  })
+  // sitemap.write({
+  //   url: '/writing',
+  //   changefreq: 'daily',
+  // })
   // sitemap.write({
   //   url: '/contact',
   //   changefreq: 'daily',
