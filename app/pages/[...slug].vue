@@ -22,7 +22,7 @@ useHead({
 useSeoMeta({
   description: () => t('global.app_description'),
   author: 'yjineey',
-  ogImage: 'https://yjineey.github.io/aurora/aurora-main.png',
+  ogImage: '/aurora-main.png',
   ogType: 'website',
   ogTitle: appConfig.appName,
   ogDescription: () => t('global.app_description'),
