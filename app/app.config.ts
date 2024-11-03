@@ -2,11 +2,11 @@ export default defineAppConfig({
   appName: "Aurora Portfolio",
   appDescription: 
     "Development portfolio ❤️ by yjineey",
-  profilePicture: "/assets/profilePicture2.png",
+  profilePicture: "/assets/profilePicture2.PNG",
   footerName: "yjineey",
   email: "did3706@naver.com",
   phone: "(+82) 10 2567 3706",
-  openGraphImage: "https://yjineey.github.io/aurora/aurora-main.png",
+  openGraphImage: "/aurora-main.png",
   socials: {
     github: 'https://github.com/',
     twitter: 'https://twitter.com/',
