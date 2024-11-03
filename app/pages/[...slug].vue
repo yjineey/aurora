@@ -22,18 +22,12 @@ useHead({
 useSeoMeta({
   description: () => t('global.app_description'),
   author: 'yjineey',
-  ogImage: 'https://canvas.hrcd.fr/social-preview.jpg',
+  ogImage: 'https://yjineey.github.io/aurora/aurora-main.png',
   ogType: 'website',
   ogTitle: appConfig.appName,
   ogDescription: () => t('global.app_description'),
   ogUrl: () => runtimeConfig.public.siteUrl,
   ogLocale: () => locale.value,
-  twitterTitle: appConfig.appName,
-  twitterDescription: () => t('global.app_description'),
-  twitterCard: 'summary_large_image',
-  twitterSite: appConfig.twitterUsername,
-  twitterCreator: appConfig.twitterUsername,
-  twitterImage: 'https://canvas.hrcd.fr/social-preview.jpg',
 })
 
 const { copy } = useClipboard({

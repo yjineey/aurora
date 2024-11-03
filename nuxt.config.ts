@@ -12,7 +12,7 @@ export default defineNuxtConfig({
         {
           src: "https://analytics.hrcd.fr/js/script.js",
           defer: true,
-          "data-domain": "canvas.hrcd.fr",
+          "data-domain": "yjineey.github.io/aurora",
         },
       ],
     },
@@ -33,7 +33,7 @@ export default defineNuxtConfig({
   },
 
   site: {
-    url: process.env.NUXT_SITE_URL || "https://canvas.hrcd.fr",
+    url: process.env.NUXT_SITE_URL || "https://yjineey.github.io/aurora",
     identity: {
       type: "Person",
     },
